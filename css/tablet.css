@@ -1,0 +1,137 @@
+@media (max-width:1024px){
+
+h2{
+    font-size: 1.5rem;
+}
+
+    .products {
+        height: 500px;
+        
+        
+    }
+    .productcards{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .products1 {
+        height: 45%;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .products2 {
+        height: 45%;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .price{
+        top:80%;
+        left: 15%;
+    }
+
+    .figure1{
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+        margin: 0 auto;
+       
+}
+
+.figimg{width: 100%;
+    height: 100%;
+      gap: 15PX;}
+
+.fig1{
+    width: 80%;
+    height: 45%;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+
+.fig2{
+    width: 80%;
+    height: 45%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+figure{
+    width: 100%;
+    gap: 20px;
+}
+
+.prewlogo{
+    display: none;
+}
+.nextlogo{
+    display: none;
+}
+
+.login{
+    left: 160px;
+    top: 208px;
+}
+
+.searchbutdiv{
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards_2{
+    display: none;
+}
+
+.cards_1{
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card{
+    width: 80%;
+   
+}
+.card_price{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.card_text{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+.mapinfo{
+    width: 100%;
+    align-items: center;
+}
+.bothmap{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
+
+
+@media (max-width:1100px){
+
+
+.loginconteiner {
+    width: 90%;
+    margin: 0 auto;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+}

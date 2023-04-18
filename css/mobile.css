@@ -1,0 +1,84 @@
+@media (max-width:700px) {
+.fa-xl{display: block;}
+nav{display: none;}
+.gridimg1{display: none;}
+.gridimg3{display: none;}
+.gridimg4 .gridimg2 .gridimg5{
+    width: 70%;
+    height: 250px;
+}
+
+.gallerygrid{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.price{display: none;}
+
+
+.product_text{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.productcards{width: 90%;
+justify-content: center;}
+
+.products1{
+    width: 80%;
+    
+    flex-direction: column;
+    justify-content: center;
+margin-bottom: 130px;}
+.products2{
+    width: 80%;
+    /* height: 45%; */
+    flex-direction: column;
+    justify-content: center;}
+
+.proimg{
+    width: 100%;
+    height: 250px;
+}
+.proimg1{display: none;}
+
+.conteiner_text{
+    flex-direction: column;
+    width: 90%;
+    
+    gap: 20px;
+    align-items: center;
+}
+.texture{
+    width: 80%;
+    
+    
+}
+
+footer{
+    flex-direction: column;
+    height: 70vh;
+}
+.login{
+    left: 70px;
+    top: 208px;
+    align-items: center;
+}
+
+}
+
+@media (max-width:650px){
+    .login{ left: 30px;
+    top: 208px;}
+
+}
+
+@media (max-width:480px){
+    .login{align-items: center;}
+
+}
